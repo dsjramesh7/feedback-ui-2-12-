@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(72, 238, 238);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container{
+  /* border: 1px solid black; */
+  text-align: center;
+  padding:25px 15px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.6);
+  width: 75%;
+  max-width: 500px;
+  
+}
+
+.container>h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  /* border: 1px solid black; */
+ 
+}
+
+.container>.fcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* border: 1px solid black; */
+}
+
+.container>.fcontainer>.emoji{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 25px;
+  /* justify-content: center; */
+}
+
+.container>.fcontainer>.emoji:hover{
+ background-color: rgb(13, 233, 13);
+ cursor: pointer;
+}
+
+.container>.btn{
+  width: 65%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background: rgb(143, 254, 143);
+  font-size: medium;
+  font-weight: 700;
+  border: none;
+}
+
+.container>.btn:hover{
+  cursor: pointer;
+  background-color: rgb(248, 58, 58);
+  color: rgb(248, 248, 167);
+  transition: all 300ms ease;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+img{
+  width: 80px;
+  /* box-shadow: 0px 6px 10px rgba(0,0,0,.6); */
+}
