@@ -47,9 +47,13 @@ body{
   /* justify-content: center; */
 }
 
-.container>.fcontainer>.emoji:hover{
+.emoji:hover,
+.emoji.active
+{
  background-color: rgb(13, 233, 13);
  cursor: pointer;
+ transition: all 400ms ease;
+ box-shadow: 0 6px 15px rgba(223, 50, 50, 0.4);
 }
 
 .container>.btn{
